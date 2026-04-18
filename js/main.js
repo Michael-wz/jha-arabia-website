@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
     
-    // Form submission handling
+    // Form submission
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
@@ -52,9 +52,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 return;
             }
             
-            // In a real application, you would send this to a server
-            // For now, redirect to success page
-            window.location.href = 'form-handler.html';
+            // Show loading state
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+            submitBtn.disabled = true;
+            
+            // For now, just redirect to success page
+            // In production, you would send this data to a server
+            setTimeout(() => {
+                // Redirect to success page
+                window.location.href = 'form-success.html';
+            }, 1000);
         });
     }
     
