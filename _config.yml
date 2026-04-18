@@ -1,0 +1,6 @@
+# GitHub Pages configuration
+# This file is not needed for basic static sites
+# GitHub Pages will automatically serve index.html as the homepage
+
+# For custom domain, create a CNAME file:
+# echo "www.jha-arabia.com" > CNAME
