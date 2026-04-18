@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Projects - JHA Arabia Co., Ltd.</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>JHA Arabia</h1>
+                <p class="tagline">Airport Construction Specialists</p>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#" class="lang-switch">العربية</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <section class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/projects-hero.jpg') center/cover no-repeat;">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Our Projects</h2>
+                <p>Showcasing our airport construction expertise across Saudi Arabia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Filter -->
+    <section class="projects-filter">
+        <div class="container">
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="visual">Visual Navigation</button>
+                <button class="filter-btn" data-filter="atc">Air Traffic Control</button>
+                <button class="filter-btn" data-filter="weak-current">Weak Current Systems</button>
+                <button class="filter-btn" data-filter="pavement">Airfield Pavement</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="projects-container">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="visual">
+                    <div class="project-image">
+                        <img src="images/project-kaia.jpg" alt="King Abdulaziz International Airport">
+                        <div class="project-status">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>King Abdulaziz International Airport</h3>
+                        <p class="project-location">Jeddah, Saudi Arabia</p>
+                        <p class="project-service">Visual Navigation System Upgrade</p>
+                        <p class="project-description">Complete upgrade of runway lighting systems including approach lighting, runway edge lights, and taxiway guidance for the new Terminal 1.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>2023</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Runway 16R/34L</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-lightbulb"></i>
+                                <span>LED Lighting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item" data-category="atc">
+                    <div class="project-image">
+                        <img src="images/project-kkia.jpg" alt="King Khalid International Airport">
+                        <div class="project-status">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>King Khalid International Airport</h3>
+                        <p class="project-location">Riyadh, Saudi Arabia</p>
+                        <p class="project-service">ATC Communication System Installation</p>
+                        <p class="project-description">Installation of new voice communication system (VCS) and radar display systems in the main control tower, enhancing air traffic management capabilities.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>2022</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-tower-cell"></i>
+                                <span>Control Tower</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-satellite"></i>
+                                <span>Redundant Systems</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item" data-category="visual">
+                    <div class="project-image">
+                        <img src="images/project-pmba.jpg" alt="Prince Mohammed Bin Abdulaziz Airport">
+                        <div class="project-status">In Progress</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Prince Mohammed Bin Abdulaziz Airport</h3>
+                        <p class="project-location">Medina, Saudi Arabia</p>
+                        <p class="project-service">Runway Lighting Modernization</p>
+                        <p class="project-description">Modernization of visual navigation systems including precision approach path indicators (PAPI) and runway end identifier lights (REIL) for enhanced safety.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>2024</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-ruler-combined"></i>
+                                <span>Runway 17/35</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-bolt"></i>
+                                <span>Energy Efficient</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item" data-category="weak-current">
+                    <div class="project-image">
+                        <img src="images/project-abha.jpg" alt="Abha International Airport">
+                        <div class="project-status">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Abha International Airport</h3>
+                        <p class="project-location">Abha, Saudi Arabia</p>
+                        <p class="project-service">Security System Installation</p>
+                        <p class="project-description">Comprehensive security system installation including CCTV surveillance, access control, and perimeter intrusion detection for the new terminal building.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>2021</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-video"></i>
+                                <span>200+ Cameras</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Integrated Security</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-item" data-category="pavement">
+                    <div class="project-image">
+                        <img src="images/project-taif.jpg" alt="Taif International Airport">
+                        <div class="project-status">Completed</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Taif International Airport</h3>
+                        <p class="project-location">Taif, Saudi Arabia</p>
+                        <p class="project-service">Taxiway Rehabilitation</p>
+                        <p class="project-description">Rehabilitation of main taxiway pavement including asphalt overlay, crack sealing, and drainage improvements to extend service life.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>2020</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-road"></i>
+                                <span>2.5 km Taxiway</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-hard-hat"></i>
+                                <span>Non-stop Operations</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-item" data-category="atc">
+                    <div class="project-image">
+                        <img src="images/project-yanbu.jpg" alt="Yanbu Airport">
+                        <div class="project-status">Planning</div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Yanbu Airport</h3>
+                        <p class="project-location">Yanbu, Saudi Arabia</p>
+                        <p class="project-service">Navigation Aid Installation</p>
+                        <p class="project-description">Installation of new VOR/DME navigation aid system to enhance instrument approach capabilities and improve airspace efficiency.</p>
+                        <div class="project-details">
+                            <div class="project-detail">
+                                <i class="fas fa-calendar"></i>
+                                <span>2024</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-compass"></i>
+                                <span>VOR/DME System</span>
+                            </div>
+                            <div class="project-detail">
+                                <i class="fas fa-sync-alt"></i>
+                                <span>Redundant Power</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Statistics -->
+    <section class="project-stats" style="background-color: #f1f5f9;">
+        <div class="container">
+            <h2 class="section-title">Project Impact</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>6+</h3>
+                    <p>Airports Served</p>
+                </div>
+                <div class="stat-item">
+                    <h3>15+</h3>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Client Satisfaction</p>
+                </div>
+                <div class="stat-item">
+                    <h3>0</h3>
+                    <p>Safety Incidents</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="contact-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Have an Airport Project in Mind?</h2>
+                <p>Contact us to discuss how we can bring our expertise to your next airport construction project.</p>
+                <a href="contact.html" class="btn-primary">Start a Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>JHA Arabia Co., Ltd.</h3>
+                    <p>Airport construction specialists serving Saudi Arabia and the Middle East.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#visual">Visual Navigation</a></li>
+                        <li><a href="services.html#atc">Air Traffic Control</a></li>
+                        <li><a href="services.html#weak-current">Weak Current Systems</a></li>
+                        <li><a href="services.html#pavement">Airfield Pavement</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Riyadh, Saudi Arabia</li>
+                        <li><i class="fas fa-phone"></i> +966 11 123 4567</li>
+                        <li><i class="fas fa-envelope"></i> info@jha-arabia.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2024</span> JHA Arabia Co., Ltd. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+                <p>Subsidiary of <a href="https://www.bjjha.com.cn" target="_blank">Beijing Jinghang'an Technology Co., Ltd.</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        // Project filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectItems = document.querySelectorAll('.project-item');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    // Show/hide projects based on filter
+                    projectItems.forEach(item => {
+                        if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
