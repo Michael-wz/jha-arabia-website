@@ -28,7 +28,7 @@ A professional static website for JHA Arabia Co., Ltd., the Saudi Arabian subsid
 
 ## Deployment Instructions
 
-### Option 1: GitHub Pages (Free)
+### Option 1: GitHub Pages (Current Setup)
 1. Create a new GitHub repository
 2. Push this code to the repository
 3. Go to Settings > Pages
@@ -42,12 +42,11 @@ A professional static website for JHA Arabia Co., Ltd., the Saudi Arabian subsid
 4. Upload all files to web hosting directory
 5. Enable SSL certificate
 
-### Option 3: Netlify/Vercel (Modern Hosting)
-1. Create account on Netlify or Vercel
-2. Connect your GitHub repository
-3. Configure build settings (no build needed for static site)
-4. Set custom domain to www.jha-arabia.com
-5. Enable automatic SSL
+### Option 3: Static Hosting With External Form Backend
+1. Keep the site on GitHub Pages or move it to another static host
+2. Connect the contact form to Formspree, Getform, a serverless function, or your own backend
+3. Keep the custom domain pointed at the chosen host
+4. Verify SSL and form-delivery behavior after deployment
 
 ## Domain Configuration
 
@@ -88,11 +87,11 @@ Recommended image sizes:
 
 ## Contact Form
 
-The contact form on `contact.html` uses client-side validation. For production use:
+The contact form on `contact.html` is currently configured for GitHub Pages friendly use.
 
-1. Set up a backend service (Formspree, Netlify Forms, etc.)
-2. Update form action URL
-3. Configure email notifications
+1. It opens a prefilled email draft for `info@jha-arabia.com`
+2. If you want direct form submission, connect it to Formspree, a serverless function, or your own backend
+3. Keep the current UI and replace the mailto behavior only when the backend is ready
 
 ## Browser Support
 
