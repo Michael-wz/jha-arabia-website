@@ -1,224 +1,176 @@
-     1|     1|<!DOCTYPE html>
-     2|     2|<html lang="en">
-     3|     3|<head>
-     4|     4|    <meta charset="UTF-8">
-     5|     5|    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     6|     6|    <title>Contact Us - JHA Arabia Co., Ltd.</title>
-     7|     7|    <link rel="stylesheet" href="css/style.css">
-     8|     8|    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-     9|     9|    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    10|    10|</head>
-    11|    11|<body>
-    12|    12|    <!-- Header & Navigation -->
-    13|    13|    <header>
-    14|    14|        <div class="container">
-    15|    15|            <div class="logo">
-    16|    16|                <h1>JHA Arabia</h1>
-    17|    17|                <p class="tagline">Airport Construction Specialists</p>
-    18|    18|            </div>
-    19|    19|            <nav>
-    20|    20|                <ul class="nav-menu">
-    21|    21|                    <li><a href="index.html">Home</a></li>
-    22|    22|                    <li><a href="about.html">About Us</a></li>
-                        <li><a href="leadership.html">Leadership</a></li>
-    23|    23|                    <li><a href="services.html">Services</a></li>
-    24|    24|                    <li><a href="projects.html">Projects</a></li>
-    25|    25|                    <li><a href="contact.html" class="active">Contact</a></li>
-    26|    26|                    <li><a href="#" class="lang-switch">العربية</a></li>
-    27|    27|                </ul>
-    28|    28|                <div class="mobile-menu-btn">
-    29|    29|                    <i class="fas fa-bars"></i>
-    30|    30|                </div>
-    31|    31|            </nav>
-    32|    32|        </div>
-    33|    33|    </header>
-    34|    34|
-    35|    35|    <!-- Page Hero -->
-    36|    36|    <section class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/contact-hero.jpg') center/cover no-repeat;">
-    37|    37|        <div class="container">
-    38|    38|            <div class="hero-content">
-    39|    39|                <h2>Contact Us</h2>
-    40|    40|                <p>Get in touch with our team for airport construction solutions in Saudi Arabia</p>
-    41|    41|            </div>
-    42|    42|        </div>
-    43|    43|    </section>
-    44|    44|
-    45|    45|    <!-- Contact Information -->
-    46|    46|    <section class="contact-info-section">
-    47|    47|        <div class="container">
-    48|    48|            <div class="contact-grid">
-    49|    49|                <div class="contact-methods">
-    50|    50|                    <div class="contact-method">
-    51|    51|                        <div class="contact-icon">
-    52|    52|                            <i class="fas fa-map-marker-alt"></i>
-    53|    53|                        </div>
-    54|    54|                        <div class="contact-details">
-    55|    55|                            <h3>Office Location</h3>
-    56|    56|                            <p>7835, Omar Ibn Abdullateef Street</p>
-    57|    57|                            <p>Al Rimal Dist., Riyadh, KSA</p>
-    58|    58|                            <p class="contact-note">Main office serving the Kingdom of Saudi Arabia</p>
-    59|    59|                        </div>
-    60|    60|                    </div>
-    61|    61|                    
-    62|    62|                    <div class="contact-method">
-    63|    63|                        <div class="contact-icon">
-    64|    64|                            <i class="fas fa-phone"></i>
-    65|    65|                        </div>
-    66|    66|                        <div class="contact-details">
-    67|    67|                            <h3>Phone Number</h3>
-    68|    68|                            <p>+966 55 576 0865</p>
-    69|    69|                            <p class="contact-note">Available Sunday to Thursday, 9:00 AM - 5:00 PM</p>
-    70|    70|                        </div>
-    71|    71|                    </div>
-    72|    72|                    
-    73|    73|                    <div class="contact-method">
-    74|    74|                        <div class="contact-icon">
-    75|    75|                            <i class="fas fa-envelope"></i>
-    76|    76|                        </div>
-    77|    77|                        <div class="contact-details">
-    78|    78|                            <h3>Email Address</h3>
-    79|    79|                            <p>info@jha-arabia.com</p>
-    80|    80|                            <p class="contact-note">General inquiries and information requests</p>
-    81|    81|                        </div>
-    82|    82|                    </div>
-    83|    83|                    
-    84|    84|                    <div class="contact-method">
-    85|    85|                        <div class="contact-icon">
-    86|    86|                            <i class="fas fa-clock"></i>
-    87|    87|                        </div>
-    88|    88|                        <div class="contact-details">
-    89|    89|                            <h3>Business Hours</h3>
-    90|    90|                            <p>Sunday - Thursday: 9:00 AM - 5:00 PM</p>
-    91|    91|                            <p>Friday - Saturday: Closed</p>
-    92|    92|                            <p class="contact-note">Saudi Arabia business hours</p>
-    93|    93|                        </div>
-    94|    94|                    </div>
-    95|    95|                </div>
-    96|    96|                
-    97|    97|                <div class="contact-form-container">
-    98|    98|                    <h2 class="section-title">Send Us a Message</h2>
-    99|    99|                    <form id="contactForm" class="contact-form">
-   100|   100|                        <div class="form-group">
-   101|   101|                            <label for="name">Full Name *</label>
-   102|   102|                            <input type="text" id="name" name="name" required placeholder="Your full name">
-   103|   103|                        </div>
-   104|   104|                        
-   105|   105|                        <div class="form-group">
-   106|   106|                            <label for="company">Company Name</label>
-   107|   107|                            <input type="text" id="company" name="company" placeholder="Your company name">
-   108|   108|                        </div>
-   109|   109|                        
-   110|   110|                        <div class="form-group">
-   111|   111|                            <label for="email">Email Address *</label>
-   112|   112|                            <input type="email" id="email" name="email" required placeholder="your.email@example.com">
-   113|   113|                        </div>
-   114|   114|                        
-   115|   115|                        <div class="form-group">
-   116|   116|                            <label for="phone">Phone Number</label>
-   117|   117|                            <input type="tel" id="phone" name="phone" placeholder="+966 XXX XXX XXXX">
-   118|   118|                        </div>
-   119|   119|                        
-   120|   120|                        <div class="form-group">
-   121|   121|                            <label for="service">Service Interest</label>
-   122|   122|                            <select id="service" name="service">
-   123|   123|                                <option value="">Select a service</option>
-   124|   124|                                <option value="visual">Visual Navigation Engineering</option>
-   125|   125|                                <option value="atc">Air Traffic Control Engineering</option>
-   126|   126|                                <option value="weak-current">Airport Weak Current Engineering</option>
-   127|   127|                                <option value="pavement">Airfield Pavement Engineering</option>
-   128|   128|                                <option value="electromechanical">Electromechanical Equipment</option>
-   129|   129|                                <option value="general">General Inquiry</option>
-   130|   130|                            </select>
-   131|   131|                        </div>
-   132|   132|                        
-   133|   133|                        <div class="form-group">
-   134|   134|                            <label for="message">Message *</label>
-   135|   135|                            <textarea id="message" name="message" rows="5" required placeholder="Please describe your project or inquiry..."></textarea>
-   136|   136|                        </div>
-   137|   137|                        
-   138|   138|                        <div class="form-group">
-   139|   139|                            <button type="submit" class="btn-primary">Send Message</button>
-   140|   140|                        </div>
-   141|   141|                    </form>
-   142|   142|                </div>
-   143|   143|            </div>
-   144|   144|        </div>
-   145|   145|    </section>
-   146|   146|
-   147|   147|    <!-- Map Section -->
-   148|   148|    <section class="map-section">
-   149|   149|        <div class="container">
-   150|   150|            <h2 class="section-title">Our Location</h2>
-   151|   151|            <div class="map-placeholder">
-   152|   152|                    <div class="map-info">
-   153|   153|                        <h3>JHA Arabia Co., Ltd.</h3>
-   154|   154|                        <p>7835, Omar Ibn Abdullateef Street</p>
-   155|   155|                        <p>Al Rimal Dist., Riyadh, KSA</p>
-   156|   156|                        <p>Airport construction specialists serving the Middle East region</p>
-   157|   157|                        <div class="map-actions">
-   158|   158|                            <a href="https://maps.google.com/?q=7835+Omar+Ibn+Abdullateef+Street+Al+Rimal+Dist.+Riyadh+KSA" target="_blank" class="btn-secondary"><i class="fas fa-directions"></i> Get Directions</a>
-   159|   159|                            <a href="tel:+966****0865" class="btn-secondary"><i class="fas fa-phone"></i> Call Now</a>
-   160|   160|                        </div>
-   161|   161|                    </div>
-   162|   162|                <div class="map-image">
-   163|   163|                    <img src="images/saudi-arabia-map.jpg" alt="Saudi Arabia Map">
-   164|   164|                </div>
-   165|   165|            </div>
-   166|   166|        </div>
-   167|   167|    </section>
-   168|   168|
-   169|   169|
-   170|   170|
-   171|   171|    <!-- Footer -->
-   172|   172|    <footer>
-   173|   173|        <div class="container">
-   174|   174|            <div class="footer-content">
-   175|   175|                <div class="footer-section">
-   176|   176|                    <h3>JHA Arabia Co., Ltd.</h3>
-   177|   177|                    <p>Airport construction specialists serving Saudi Arabia and the Middle East.</p>
-   178|   178|                    <div class="social-links">
-   179|   179|                        <a href="#"><i class="fab fa-linkedin"></i></a>
-   180|   180|                        <a href="#"><i class="fab fa-twitter"></i></a>
-   181|   181|                        <a href="#"><i class="fab fa-facebook"></i></a>
-   182|   182|                    </div>
-   183|   183|                </div>
-   184|   184|                <div class="footer-section">
-   185|   185|                    <h4>Quick Links</h4>
-   186|   186|                    <ul>
-   187|   187|                        <li><a href="index.html">Home</a></li>
-   188|   188|                        <li><a href="about.html">About Us</a></li>
-                       <li><a href="leadership.html">Leadership</a></li>
-   189|   189|                        <li><a href="services.html">Services</a></li>
-   190|   190|                        <li><a href="projects.html">Projects</a></li>
-   191|   191|                        <li><a href="contact.html">Contact</a></li>
-   192|   192|                    </ul>
-   193|   193|                </div>
-   194|   194|                <div class="footer-section">
-   195|   195|                    <h4>Services</h4>
-   196|   196|                    <ul>
-   197|   197|                        <li><a href="services.html#visual">Visual Navigation</a></li>
-   198|   198|                        <li><a href="services.html#atc">Air Traffic Control</a></li>
-   199|   199|                        <li><a href="services.html#weak-current">Weak Current Systems</a></li>
-   200|   200|                        <li><a href="services.html#pavement">Airfield Pavement</a></li>
-   201|   201|                    </ul>
-   202|   202|                </div>
-   203|   203|                <div class="footer-section">
-   204|   204|                    <h4>Contact Info</h4>
-   205|   205|                    <ul class="contact-info">
-   206|   206|                        <li><i class="fas fa-map-marker-alt"></i> 7835, Omar Ibn Abdullateef Street, Al Rimal Dist., Riyadh, KSA</li>
-   207|   207|                        <li><i class="fas fa-phone"></i> +966 55 576 0865</li>
-   208|   208|                        <li><i class="fas fa-envelope"></i> info@jha-arabia.com</li>
-   209|   209|                    </ul>
-   210|   210|                </div>
-   211|   211|            </div>
-   212|   212|            <div class="footer-bottom">
-   213|   213|                <p>&copy; <span id="currentYear">2024</span> JHA Arabia Co., Ltd. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-   214|   214|                <p>Subsidiary of <a href="https://www.bjjha.com.cn" target="_blank">Beijing Jinghang'an Technology Co., Ltd.</a></p>
-   215|   215|            </div>
-   216|   216|        </div>
-   217|   217|    </footer>
-   218|   218|
-   219|   219|    <!-- JavaScript -->
-   220|   220|    <script src="js/main.js"></script>
-   221|   221|</body>
-   222|   222|</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | JHA Arabia</title>
+<meta name="description" content="Contact JHA Arabia for airport systems, airfield engineering, and Saudi aviation infrastructure inquiries.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&amp;family=Cairo:wght@500;600;700&amp;family=IBM+Plex+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-contact">
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header">
+<div class="container site-nav">
+<a class="brand" href="index.html" aria-label="JHA Arabia home">
+<img class="brand-mark" src="images/Logo-mark.jpg" alt="JHA Arabia Logo">
+<span class="brand-copy">
+<span class="brand-name">JHA Arabia</span>
+<span class="brand-subtitle">Airport systems and airfield engineering</span>
+</span>
+</a>
+<button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-menu">
+<span class="nav-toggle__line"></span>
+</button>
+<ul class="nav-menu" id="site-menu">
+<li><a class="nav-link" href="index.html">Home</a></li>
+<li><a class="nav-link" href="about.html">About</a></li>
+<li><a class="nav-link" href="services.html">Services</a></li>
+<li><a class="nav-link" href="projects.html">Projects</a></li>
+<li><a class="nav-link" href="leadership.html">Leadership</a></li>
+<li><a class="nav-link" href="contact.html">Contact</a></li>
+<li><a class="lang-link" href="ar/contact.html">العربية</a></li>
+</ul>
+</div>
+</header>
+<main id="main-content">
+<section class="hero">
+<div class="container hero-inner">
+<div class="hero-copy-block" data-reveal>
+<span class="eyebrow">Business inquiry</span>
+<h1 class="hero-title">Commercial Contact for Saudi Airport Projects</h1>
+<p class="hero-subtitle">Connect directly with JHA Arabia for capability alignment, project introductions, and technical scope coordination.</p>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="container contact-grid">
+<aside class="contact-panel" data-reveal>
+<div class="contact-panel__group">
+<span class="section-kicker">Direct contact</span>
+<h2 class="section-title">Talk To The Team In Riyadh</h2>
+<p class="section-lead">Use the form for project inquiries or reach out directly if you already know the scope you want to discuss.</p>
+<ul class="contact-list">
+<li><a href="tel:+966555760865">+966 55 576 0865</a></li>
+<li><a href="mailto:info@jha-arabia.com">info@jha-arabia.com</a></li>
+<li>7835 Omar Ibn Abdullateef Street, Al Rimal District, Riyadh, Saudi Arabia</li>
+</ul>
+</div>
+<div class="contact-panel__group">
+<span class="section-kicker">Typical response</span>
+<h3 class="contact-title">What To Expect</h3>
+<ul class="detail-list">
+<li>Business-hours reply window for standard inquiries</li>
+<li>Capability and scope alignment before detailed follow-up</li>
+<li>Suitable for owners, EPCs, and specialist package engagement</li>
+</ul>
+</div>
+</aside>
+<section class="contact-panel" data-reveal>
+<span class="section-kicker">Inquiry form</span>
+<h2 class="section-title">Send A Project Inquiry</h2>
+<p class="section-lead">Choose your preferred language and open the Microsoft Form in a new tab for the best submission experience.</p>
+<div class="button-row">
+<a class="button button-primary" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xmoag9s7R0GG4pbHpnFmNGo-2_Js4E9Isznw5fPkByNUNURCNFdIVVcyVDRCTUZLMVVTVTVKVDlCTC4u&lang=en-US" target="_blank" rel="noopener noreferrer">Open Form (EN)</a>
+<a class="button button-secondary" href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=Xmoag9s7R0GG4pbHpnFmNGo-2_Js4E9Isznw5fPkByNUNURCNFdIVVcyVDRCTUZLMVVTVTVKVDlCTC4u&lang=ar-SA" target="_blank" rel="noopener noreferrer">Open Form (AR)</a>
+<a class="button button-secondary" href="mailto:info@jha-arabia.com?subject=JHA%20Arabia%20Inquiry">Email Inquiry</a>
+</div>
+</section>
+</div>
+</section>
+<section class="section section-muted">
+<div class="container">
+<div class="section-header" data-reveal>
+<span class="section-kicker">Typical conversations</span>
+<h2 class="section-title">When It Makes Sense To Reach Out</h2>
+<p class="section-lead">Typical inquiries include bid-stage support, capability confirmation, and early-stage project coordination.</p>
+</div>
+<div class="check-grid grid-3">
+<article class="contact-card" data-reveal>
+<h3 class="card-title">Bid Support</h3>
+<p class="card-lead">You need a specialist airport engineering partner for a defined or emerging package.</p>
+</article>
+<article class="contact-card" data-reveal>
+<h3 class="card-title">Capability Review</h3>
+<p class="card-lead">Assess whether JHA Arabia is the right fit for your airport systems or airfield scope.</p>
+</article>
+<article class="contact-card" data-reveal>
+<h3 class="card-title">Project Introduction</h3>
+<p class="card-lead">Start early coordination before prequalification, tendering, or package definition.</p>
+</article>
+</div>
+</div>
+</section>
+<section class="section">
+<div class="container">
+<article class="map-card map-card--embed" data-reveal>
+<div class="map-embed" aria-hidden="true">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d900.9408022790057!2d46.781081466521826!3d24.92545595485849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2ef9003d5b9e17%3A0x9046d33743bb578b!2z5Lqs6Iiq5a6J6Zi_5ouJ5Lyv5pyJ6ZmQ5YWs5Y-4!5e1!3m2!1szh-CN!2ssa!4v1776632710695!5m2!1szh-CN!2ssa" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="JHA Arabia location map"></iframe>
+</div>
+<div class="map-caption">
+<div class="map-grid">
+<strong>Riyadh Contact Point</strong>
+<p>7835 Omar Ibn Abdullateef Street, Al Rimal District</p>
+<p>Saudi Arabia</p>
+</div>
+<span>Business-facing location</span>
+</div>
+<div class="button-row">
+<a class="button button-secondary" href="https://maps.google.com/?q=24.92545595485849,46.781081466521826" target="_blank" rel="noopener noreferrer">Open in Google Maps</a>
+<a class="button button-secondary" href="mailto:info@jha-arabia.com?subject=JHA%20Arabia%20Inquiry">Email Us</a>
+</div>
+</article>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<strong>JHA Arabia</strong>
+<p>A more credible contact experience for airport-sector conversations in Saudi Arabia.</p>
+<p><a href="https://www.bjjha.com.cn" target="_blank" rel="noopener noreferrer">Parent company website</a></p>
+</div>
+<div>
+<h2 class="footer-heading">Site</h2>
+<ul class="footer-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="services.html">Services</a></li>
+<li><a href="projects.html">Projects</a></li>
+</ul>
+</div>
+<div>
+<h2 class="footer-heading">Capabilities</h2>
+<ul class="footer-links">
+<li><a href="services.html#visual-navigation">Visual navigation</a></li>
+<li><a href="services.html#air-traffic-control">ATC engineering</a></li>
+<li><a href="services.html#weak-current">Weak current systems</a></li>
+<li><a href="services.html#airfield-pavement">Airfield pavement</a></li>
+</ul>
+</div>
+<div class="footer-contact">
+<h2 class="footer-heading">Contact</h2>
+<ul class="footer-links">
+<li><a href="tel:+966555760865">+966 55 576 0865</a></li>
+<li><a href="mailto:info@jha-arabia.com">info@jha-arabia.com</a></li>
+<li>7835 Omar Ibn Abdullateef Street, Al Rimal District, Riyadh</li>
+<li><a href="contact.html">Start an inquiry</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-meta">
+<span>&copy; <span class="current-year">2026</span> JHA Arabia Co., Ltd. All rights reserved.</span>
+<ul class="legal-links">
+<li><a href="privacy.html">Privacy</a></li>
+<li><a href="terms.html">Terms</a></li>
+<li><a href="ar/contact.html">Arabic page</a></li>
+</ul>
+</div>
+</div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
